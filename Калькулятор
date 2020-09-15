@@ -1,0 +1,14 @@
+print('Введите пять элементов множества A слитно.');
+a = set(input());
+print('Введите пять элементов множества B слитно.');
+b = set (input());                                                                                                
+obeden = a.union(b)                                                                         
+print(obeden, "объеденение")  
+peresech = a.intersection(b)
+print(peresech, "пересечение")
+razn = a.difference(b)
+print(razn, "разность")
+prinadl = a.issubset(b)
+print(prinadl, "принадлежность")
+simrazn = a.symmetric_difference(b)
+print (simrazn, "симметрическая разность")
